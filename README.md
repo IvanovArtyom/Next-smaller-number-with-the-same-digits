@@ -36,7 +36,8 @@ public class Kata
             char nextNumber = nAsStr.Last(c => c < nAsStr[i - 1]);
             var lastNumbers = nAsStr[(i - 1)..].OrderByDescending(c => c).ToList();
             lastNumbers.Remove(nextNumber);
-            long result = long.Parse(string.Join("", nAsStr[0..(i - 1)], nextNumber, string.Join("", lastNumbers)));
+            long result = long.Parse(string.Join("", nAsStr[0..(i - 1)],
+                nextNumber, string.Join("", lastNumbers)));
 
             if (result.ToString().Length == nAsStr.Length)
                 return result;
