@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next smaller number with the same digits", "Next smaller number with the same digits\Next smaller number with the same digits.csproj", "{21A817D3-AB1A-496A-ABE4-D6CA5C0C4065}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A817D3-AB1A-496A-ABE4-D6CA5C0C4065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A817D3-AB1A-496A-ABE4-D6CA5C0C4065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A817D3-AB1A-496A-ABE4-D6CA5C0C4065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A817D3-AB1A-496A-ABE4-D6CA5C0C4065}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751A3427-CA7A-4AC2-92E0-C5E5858B6969}
+	EndGlobalSection
+EndGlobal
